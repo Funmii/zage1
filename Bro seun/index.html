@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href ="./forms.css"
+</head>
+<body>
+    <header>
+        <nav class="flex">
+         <ul>
+                <li class="Home">
+                    <a href="#">Home</a>
+                </li>
+                <li class="Services">
+                    <a href ="#">Services</a>
+                </li>
+                <li class="Contact-us">
+                    <a href ="#">Contact us</a>
+                </li>
+         </ul>
+        </nav>  
+        <div class="container">
+            <article class="post">
+               <h1> Quick & instant money transfer.</h1>
+               <p>Send money in your local currency to friends and family in over 11 African countries simply using the power of Bitcoins</p> 
+            </article>
+            
+            <form class="login">
+                <p>Recipient Details</p>
+                <label>Select transfer mode</label><br>
+                <input type="country" id="country" placeholder="Please select country...."><br>
+                <datalist name="bank" id="options">
+                <option value="bank"></option>
+                <option></option><br>
+                </datalist>
+                <label>Select recipient bank</label><br>
+                <input type="text" id="figure" placeholder="&#8358 50.000"><br>
+                <label>Input recipent account number</label><br>
+                <input type="figure" id="figure" placeholder="$100"><br>
+                <button class="button" type="submit">Proceed</button>
+            <form>
+        </div>
+    </header> 
+    
+        <!--<script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>-->
+    </body>
+    
+    </html>
+</body>
+</html>

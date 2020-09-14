@@ -1,0 +1,38 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    position: absolute;
+    width: 370px;
+    height: 400px;
+    left: 817px;
+    top:225px;
+    background:#FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin: 20px auto;
+  }
+  button{
+    position: absolute;
+    height: 50px;
+    width: 313px;
+    background: #3D348B;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    
+    
+
+  }
+  input {
+    width: 320px;
+    padding: 8.7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 1px solid  #d5dbd9;
+    margin-bottom: 18px;
+  }
+  label{
+    margin-left: 10px;
+    /*margin-bottom: 40px;*/
+  }
