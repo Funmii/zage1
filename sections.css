@@ -1,6 +1,38 @@
 section{
-    background-image: ("./images/Group\ 62.png") ;
-    background-repeat: no-repeat;
-    max-height: 100%;
-    background-color:  #E5E5E5;;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+.how-zage-works{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+margin: 0 auto;
+color: #3D348B;
+border: orange 2px dashed;
+max-width: 150px;
+max-width: min-content;
+}
+.how-zage-works span{
+    color: #FF8C00;
+    font-size: 65px;
+}
+.numbered-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.form-steps h4{
+font-weight: 500;
+font-size: 24px;
+color: #3D348B;
+line-height: 29px;
+}
+.form-steps p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #5A646A;
+    opacity: 0.8;
 }

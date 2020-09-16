@@ -15,7 +15,7 @@ form {
     
   
   }
-  button{
+  .form-button{
     position: absolute;
     height: 50px;
     width: 313px;
@@ -52,4 +52,7 @@ form {
     font-size: 14px;
     line-height: 17px;
     color: #454545;
+  }
+  .container{
+    margin: 0 auto;
   }
