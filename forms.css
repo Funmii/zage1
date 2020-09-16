@@ -3,8 +3,8 @@ form {
     border-radius: 3px;
     padding: 40px;
     position: absolute;
-    width: 370px;
-    height: 400px;
+    width: 442px;
+    height: 500px;
     left: 817px;
     top:225px;
     background:#FFFFFF;
@@ -12,6 +12,8 @@ form {
     border-radius: 5px;
     margin-bottom: 50px;
     margin: 20px auto;
+    
+
     
   
   }
@@ -30,10 +32,13 @@ form {
 
   }
   input {
-    width: 320px;
+    width: 359px;
+    height: 40px;
     padding: 8.7px;
-    margin-top: 10px;
-    margin-left: 10px;
+    top: 531px;
+    left:856px;
+    /*margin-top: 10px;
+    margin-left: 10px;*/
     border: 1px solid  #d5dbd9;
     margin-bottom: 18px;
     border-radius: 3px;
@@ -52,6 +57,10 @@ form {
     font-size: 14px;
     line-height: 17px;
     color: #454545;
+    width: 108px;
+    height: 17px;
+    left: 847px;
+    top: 317px;
   }
   .container{
     margin: 0 auto;
