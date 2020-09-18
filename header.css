@@ -8,17 +8,24 @@ body{
 
 header{
     background: rgba(237, 237, 237, 0.5);
-    min-height: 925px;
+
+    height: 925px;
+width: 1440px;
+
+
 }
 nav{
-    display:flex
+    display:flex;
+    min-height: 19vh;
+    justify-content: space-around;
+    j
 }
 .logo{
     
 }
 .header-container{
     margin: 0 auto;
-    display: flex
+
 }
 .contact-us{
     display: flex;
@@ -28,7 +35,7 @@ ul {display: flex;
     list-style: none;
     text-decoration: none;
     /*font-size: 16px;*/
-    j
+    
 
 }
 a {
@@ -79,7 +86,7 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*gap: 10px;*/
-    max-width:  76%;
+    /* max-width:  76%; */
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
