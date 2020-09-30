@@ -2,7 +2,7 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: proxima;
+    font-family: ProximaNova;
     color: #202B6F;
 }
 
@@ -14,11 +14,12 @@ width: 1440px;
 
 
 }
+
 nav{
     display:flex;
     min-height: 19vh;
     justify-content: space-around;
-    j
+    
 }
 .logo{
     
@@ -28,13 +29,14 @@ nav{
 
 }
 .contact-us{
-    display: flex;
+    /*display: flex;*/
 }
-ul {display: flex;
+ul {
+   /* display: flex;*/
     justify-content: center;
     list-style: none;
     text-decoration: none;
-    /*font-size: 16px;*/
+    font-size: 16px;
     
 
 }
