@@ -8,9 +8,7 @@ body{
 
 header{
     background: rgba(237, 237, 237, 0.5);
-
-    height: 925px;
-width: 1440px;
+    
 
 
 }
@@ -21,13 +19,8 @@ nav{
     justify-content: space-around;
     
 }
-.logo{
-    
-}
-.header-container{
-    margin: 0 auto;
 
-}
+
 .contact-us{
     /*display: flex;*/
 }
