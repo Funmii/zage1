@@ -14,34 +14,36 @@
 <body>
     <header>
         <nav class="flex">
-            <div class="header-container">
-                <div class="logo">
-                    <img src="./images/Group65.png" alt="">
+            <div class="container">
+                <div class="menu-flex">
+                    <div class="logo">
+                        <img src="./images/Group65.png" alt="">
+                    </div>
+               
+                    <ul class="nav-home-services">
+                        <li class="Home">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="Services">
+                            <a href ="#">Services</a>
+                        </li>
+               
+                    </ul> 
+                    <button class="Contact-us">
+                        <a href ="#">Contact us</a>
+                    </button>
                 </div>
-               
-                <ul>
-                    <li class="Home">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="Services">
-                        <a href ="#">Services</a>
-                    </li>
-               
-                </ul> 
-                <button class="Contact-us">
-                    <a href ="#">Contact us</a>
-                </button>
             </div>
                 
         </nav> 
-        
         <div class="container">
-            <article class="post">
-               <h1> Quick & instant money transfer.</h1>
-               <p>Send money in your local currency to friends and family in over 11 African countries simply using the power of Bitcoins</p> 
-            </article>
-            
-            <form class="login">
+            <div class="grid-left">
+                <article class="post">
+                <h1> Quick & instant money transfer.</h1>
+                <p>Send money in your local currency to friends and family in over 11 African countries simply using the power of Bitcoins</p> 
+                </article>
+            </div>  
+            <form class="grid-right">
                 <p>Recipient Details</p>
                 <label>Select transfer mode</label><br>
                 <input type="country" id="country" placeholder="Please select country...."><br>
