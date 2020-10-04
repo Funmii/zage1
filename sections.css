@@ -8,40 +8,35 @@ section{
 
 }
 .section-grid-column-1{
-    width: 40%;
+    width: 35%;
     
 }
 .section__grid_1{
     float: left;
 }
 .section-grid-column-2{
-    width: 60%;
+    width: 65%;
 }
 .section__grid_2{
     float: right;
 }
 
-.how-zage-works{
+.how-zage-works .section_primary_title{
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 48px;
 
 color: #3D348B;
-border: orange 2px dashed;
-max-width: 150px;
-max-width: min-content;
+
+
 }
 .how-zage-works span{
     color: #FF8C00;
     font-size: 65px;
 }
 .numbered-form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    max-width: 960px;
-    gap: 10px;
+    
 }
 .form-steps h4{
 font-weight: 500;
