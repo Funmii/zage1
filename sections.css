@@ -9,6 +9,7 @@ section{
 }
 .section-grid-column-1{
     width: 35%;
+    display: block;
     
 }
 .section__grid_1{
@@ -38,6 +39,10 @@ color: #3D348B;
 .numbered-form{
     
 }
+.form-steps{
+    margin: 40px 0 100px;
+    display: block;
+}
 .form-steps h4{
 font-weight: 500;
 font-size: 24px;
@@ -51,6 +56,7 @@ line-height: 29px;
     color: #5A646A;
     opacity: 0.8;
     text-align: center;
+    
 }
 .methods-paragraph h3{
     text-align: center;
@@ -60,10 +66,7 @@ line-height: 29px;
     color: #3D348B;
     text-align: center;
 
-width: 819px;
-height: 36px;
-left: 310px;
-top: 2004px;
+
 
 }
 .methods-paragraph p{
@@ -72,10 +75,7 @@ top: 2004px;
     text-align: center;
     color: #5A646A;
     opacity: 0.8;
-width: 737px;
-height: 26px;
-left: 351px;
-top: 2040px;
+
 
 }
 
@@ -84,8 +84,17 @@ span{
 }
 .methods-image{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 90px 0 90px;
 }
 .methods-image img{
     border: solid 1px #E0E0E0;;
+}
+.home-page-methods{
+    padding: 120px 0 90px;
+}
+.faq-header{
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
 }
