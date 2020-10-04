@@ -1,13 +1,32 @@
 section{
     background-color: #E5E5E5;
-    margin: 0 auto;
+    
 }
-/*.how-zage-works{
+.section-grid{
+    display: inline-block;
+    width: 100%;
+
+}
+.section-grid-column-1{
+    width: 40%;
+    
+}
+.section__grid_1{
+    float: left;
+}
+.section-grid-column-2{
+    width: 60%;
+}
+.section__grid_2{
+    float: right;
+}
+
+.how-zage-works{
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 48px;
-margin: 0 auto;
+
 color: #3D348B;
 border: orange 2px dashed;
 max-width: 150px;
