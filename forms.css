@@ -2,7 +2,7 @@ form {
     
     border-radius: 3px;
     padding: 40px;
-    position: absolute;
+    
     width: 442px;
     height: 500px;
     left: 817px;
@@ -18,7 +18,7 @@ form {
   
   }
   .form-button{
-    position: absolute;
+    
     height: 50px;
     width: 313px;
     background: #3D348B;

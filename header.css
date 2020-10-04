@@ -11,7 +11,7 @@ header{
 }
 
 nav{
-  border: dashed 1px;
+  border: solid 1px;
   padding-top: 30px;
 }
 .nav-home-services{
@@ -23,25 +23,22 @@ nav{
 }
 .Contact-us{
     border-radius: 4px;
-    border: 1px;
+    border:  solid 1px;
     border-color: rgba(61,52,139,1); ;
     font-size: 16px;
     font-weight:500 ;
     line-height: 40px;
-    padding-left: 2.0rem;
-    padding-right: 2.0rem;
-    margin-top: 1.8rem;
-    
-
+    padding-left: 2.0em;
+    padding-right: 2.0em;
+    margin-top: 2.0rem;
+    height: 38px;
+    text-align: center;
 }
 ul {
-   
     justify-content: center;
     list-style: none;
     text-decoration: none;
     font-size: 16px;
-    
-
 }
 a {
     text-decoration: none;
@@ -64,8 +61,6 @@ li{
     height: 156px;
     left: 168px;
     top: 312px;
-
-
 }
 .post p{
     font-size: 20px;
@@ -74,12 +69,17 @@ li{
     height: 120px;
     left: 168px;
     top: 475px;
-
 }
 
-
-.grid-left{
-    /*padding: 20px;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 8rem;
+    margin: 0 auto;
+}
+./*grid-left{
+    padding: 20px;
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -88,15 +88,13 @@ li{
     justify-content:space-between;*/
    
     /*border: solid 5px;*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     /*gap: 10px;*/
     /* max-width:  76%; */
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto;
+
+    
 }
-.grid-right{
+/*.grid-right{
     background-color: #ffffff;
     
     width: 442px;
@@ -104,7 +102,7 @@ li{
     left: 817px;
     top: 225px;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 button{
    
