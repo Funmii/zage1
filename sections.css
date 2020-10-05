@@ -96,10 +96,13 @@ line-height: 36px;
 size: 18px;
 padding: 120px 0 90px;
 }
+.question-1{
+    display: flex;
+}
 footer{
     background-color:#E5E5E5; 
     text-align: center ;
-    
+    justify-content: space-between;
 }
 .footer-button{
     background: rgba(61, 52, 139, 1);
