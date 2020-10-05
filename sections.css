@@ -1,9 +1,11 @@
 section{
-    background-color: #E5E5E5;  
+    background-color: #E5E5E5; 
+    padding: 120px 0 90px; 
 }
 .section-grid{
     display: inline-block;
     width: 100%;
+    padding: 120px 0 90px;
 
 }
 .section-grid-column-1{
@@ -93,4 +95,20 @@ span{
 line-height: 36px;
 size: 18px;
 padding: 120px 0 90px;
+}
+footer{
+    background-color:#E5E5E5; 
+    text-align: center ;
+    
+}
+.footer-button{
+    background: rgba(61, 52, 139, 1);
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(232, 246, 251, 1);
+    letter-spacing: 0.02rem;
+    border-radius: 4px;
+    margin: 0 auto
+    ;
+
 }
