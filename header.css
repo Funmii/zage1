@@ -71,7 +71,7 @@ li{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 5rem;
     padding-top: 8rem;
     position: relative;
 }

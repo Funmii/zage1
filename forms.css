@@ -2,7 +2,6 @@ form {
     
     border-radius: 3px;
     padding: 40px;
-    
     width: 442px;
     height: 500px;
     left: 817px;
@@ -12,13 +11,9 @@ form {
     border-radius: 5px;
     margin-bottom: 50px;
     margin: 20px auto;
-    
-
-    
   
   }
   .form-button{
-    
     height: 50px;
     width: 313px;
     background: #3D348B;

@@ -82,10 +82,15 @@ span{
     padding: 120px 0 90px;
 }
 .faq{
-    padding: 100px 0 90px;
+    padding: 90px 0 90px;
 }
 .faq-header{
     font-size: 36px;
     line-height: 36px;
     text-align: center;
+}
+.questions{
+line-height: 36px;
+size: 18px;
+padding: 120px 0 90px;
 }
